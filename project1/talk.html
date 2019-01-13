@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Contacts
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is about me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body{
+      font-family: 'Lato', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      color: white;
+    }
+
+    .head{
+      display: block;
+      padding-top: 30px;
+      width: 100%;
+      padding-left: 10px;
+      margin-bottom: 60px;
+    }
+
+    .name {
+      float: left;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      margin-right: 40px;
+      width: 100px;
+    }
+
+    .back{
+      width: 30px;
+      margin-left: 30px;
+    }
+
+    .name:hover {
+      color: #ff9b54;
+      opacity: 0.8;
+    }
+
+    .portfolio:hover {
+      color: #ff9b54;
+      opacity: 0.8;
+    }
+
+    .portfolio{
+     margin-bottom: 10px;
+     margin-left: 30px;
+    }
+
+    .footer{
+      padding: 20px;
+    }
+
+    .linkedin{
+    float: right;
+    margin-bottom: 20px;
+    }
+
+    .back{
+      float: left;
+      margin-left: 10px;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .mail{
+      margin: 30px;
+    }
+
+    .mail:hover{
+      animation-name: wiggle;
+      animation-duration: 2s;
+      animation-iteration-count: 3;
+
+    }
+
+    @keyframes wiggle {
+      0% {-webkit-transform: rotate(10deg);}
+      25% {-webkit-transform: rotate(-10deg);}
+      50% {-webkit-transform: rotate(20deg);}
+      75% {-webkit-transform: rotate(-5deg);}
+      100% {-webkit-transform: rotate(0deg);}
+    }
+
+    .back{
+      margin-left: 10px;
+    }
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+  <header>
+<div class="head">
+<div class="name"> <a href="home.html"> <img src="images/logowhite.png" alt="logo" width="100">  </a> </div>
+<div class="portfolio"> <a href="portfolio.html">  My portfolio  </a> </div>
+</div>
+  </header>
+
+
+
+
+<a href=project.html> <img src="images/back.png" class="back"  alt="back"> </a>
+
+<div class="objects">
+<a href="mailto:anele.rubin@gmail.com"> <img src="images/mail.png" alt="mail" class="mail" width="200"> </a>
+<a href="https://lt.linkedin.com/in/anele-rubinaite-a46374126"> <img src="images/linkedinwhite.png" alt="linked" class="mail" width="200"> </a>
+<a href="projects/Rubin.pdf"> <img src="images/cv.png" alt="cv" width="200" class="mail"> </a>
+</div>
+
+</body>
+
+</html>

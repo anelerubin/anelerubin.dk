@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>
+        Portfolio
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="This is about me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body{
+      font-family: 'Lato', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      color: white;
+
+    }
+
+    .head{
+      display: block;
+      padding-top: 30px;
+      width: 100%;
+      padding-left: 10px;
+      margin-bottom: 60px;
+    }
+
+    .name {
+      float: left;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      margin-right: 40px;
+      width: 100px;
+    }
+
+    .name:hover {
+      opacity: 0.8;
+    }
+
+    .portfolio:hover {
+      opacity: 0.8;
+    }
+
+    .portfolio{
+     margin-bottom: 10px;
+     margin-left: 30px;
+    }
+
+    .footer{
+      padding: 20px;
+    }
+
+    .back{
+      float: left;
+      margin-left: 10px;
+      width: 30px;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+
+    p{
+      color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    h1{
+      color: white;
+      margin-left: 10px;
+    }
+
+    .images{
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 400px;
+    }
+
+    @media screen and (min-width: 800px) {
+      .images {
+      height: auto;
+      width: 600px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      }
+    }
+
+    .evaluation{
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-left: 10px;
+      animation-name: evaluation;
+      animation-duration: 2s;
+    }
+
+    .evaluation:hover {
+    color: #00FFFF;
+    }
+
+    @keyframes evaluation {
+      0%, 20%, 60%, 100% {
+    		transform: translateY(0);
+    		transform: translateY(0);
+    	}
+
+    	40% {
+    		transform: translateY(-20px);
+    		transform: translateY(-20px);
+    	}
+
+    	80% {
+    		transform: translateY(-10px);
+    		transform: translateY(-10px);
+    	}
+    }
+
+
+
+    </style>
+
+</head>
+<body>
+
+  <header>
+<div class="head">
+<div class="name"> <a href="home.html"> <img src="images/logowhite.png" width="100" alt="logo">  </a> </div>
+<div class="portfolio"> <a href=portfolio.html>  My portfolio  </a> </div>
+</div>
+  </header>
+<a href=portfolio.html> <img src="images/back.png" class="back" alt="back"> </a>
+
+
+  <h1> Link to screen cast documentation </h1>
+  <p> <a href="projects/03.04.06.pdf"> See the submission here </a> </p>
+<p>
+
+  This has been a quite interesting project and we had 7 people team to work with. Everything was more or less easy for us, just I feel that in
+  the team we had different clashing personalities so that made some occasional arguments. I guess in the end the result was the
+  best as it could because we put our best efforts in making it best. I was contributing with UX, I really feel that I put my best efforts
+  although especially for UX people there wasn't so many challenges to overcome which made it kind of boring. </p>
+
+  <p class="evaluation"> My personal evaluation: 7/10 </p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>
+        Home page
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="This is about me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body{
+      font-family: 'Lato', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+
+    }
+
+    .head{
+      display: flex;
+      padding-top: 30px;
+      width: 100%;
+      padding-left: 10px;
+      margin-bottom: 60px;
+    }
+
+    .name {
+      float: left;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      margin-right: 40px;
+    }
+
+    .name:hover {
+      color: #022b3a;
+      opacity: 0.8;
+    }
+
+    .portfolio:hover {
+      color: #022b3a;
+      opacity: 0.8;
+    }
+
+    .portfolio{
+     margin-bottom: 10px;
+     margin-left: 30px;
+     margin-right: 0px;
+    }
+
+    .me {
+      margin-left: 30px;
+    }
+
+
+    .profile {
+      margin: 20px;
+      padding: 30px;
+    }
+
+    .footer{
+      padding: 20px;
+    }
+
+    .linkedin{
+    float: right;
+    margin-bottom: 20px;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .txt {
+        color: #ffffff;
+        font-size:150px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        animation-name: heya;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        margin: 340px;
+        filter: brightness(300%);
+        filter:contrast(200%);
+    }
+
+    @keyframes heya {
+      0% {
+        color: #4F000B;
+      }
+      30% {
+        color: #720026;
+      }
+      50% {
+        color: #CE4257;
+      }
+      70%{
+        color: #FF7F51;
+      }
+      100% {
+        color: #FF9B54;
+      }
+    }
+
+    .wrapper{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+  <header>
+<div class="head">
+<div class="name"> <a href="home.html"> <img src="images/logowhite.png" width="100" alt="logo">  </a> </div>
+<div class="portfolio"> <a href="portfolio.html">  My portfolio  </a> </div>
+<div class="me"> <a href=project.html> About me  </a> </div>
+</div>
+  </header>
+
+  <div class="wrapper">
+       <span class="txt">heya!</span>
+       <span class="gradient"></span>
+       <span class="dodge"></span>
+  </div>
+
+
+<footer>
+  <div class="footer">
+
+   </div>
+</footer>
+
+</body>
+
+</html>
